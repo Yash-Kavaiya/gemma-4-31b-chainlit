@@ -1,0 +1,27 @@
+[project]
+# Whether to enable telemetry (default: true). No personal data is collected.
+enable_telemetry = false
+
+[features]
+# Show the prompt playground
+prompt_playground = false
+
+# Enable file uploads
+multi_modal = true
+
+[UI]
+# Name of the assistant.
+name = "Gemma 4 31B"
+description = "Powered by Google Gemma 4 31B via NVIDIA NIM — with extended thinking enabled."
+
+# Large size content are collapsed by default
+default_collapse_content = true
+
+# The default value for the expand messages settings.
+default_expand_messages = false
+
+# Hide the chain of thought details from the user
+hide_cot = false
+
+[meta]
+generated_by = "chainlit"
